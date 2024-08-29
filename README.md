@@ -7,7 +7,7 @@ Este es el repositorio del Grupo 10 cuyos integrantes son:
 * **Tutor:** Ariane Carvajal
 
 ## Wiki
-Puedes acceder a la Wiki mediante el siguiente enlace.
+Puedes acceder a la Wiki mediante el siguiente [enlace](https://gitlab.com/anon369mad/grupo10-2024-proyinf/-/wikis/home).
 
 ## Videos
 * Video presentación cliente.
