@@ -7,10 +7,11 @@ Este es el repositorio del Grupo 10 cuyos integrantes son:
 
 
 ## Wiki
-
+Puedes acceder a la Wiki mediante el siguiente enlace.
 
 ## Videos
-
+Video presentación cliente.
+Video presentación avance 1.
 
 ## Aspectos técnicos relevantes
 
