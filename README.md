@@ -1,4 +1,4 @@
-# GRUPO 10
+# Grupo 10
 Este es el repositorio del Grupo 10 cuyos integrantes son:
 * Luis González - 202021002-0
 * Valentina Ibacache- 202173136-9
@@ -7,11 +7,11 @@ Este es el repositorio del Grupo 10 cuyos integrantes son:
 * **Tutor:** Ariane Carvajal
 
 ## Wiki
-Puedes acceder a la Wiki mediante el siguiente [enlace](https://gitlab.com/anon369mad/grupo10-2024-proyinf/-/wikis/home).
+Puede acceder a la Wiki mediante el siguiente [enlace](https://gitlab.com/anon369mad/grupo10-2024-proyinf/-/wikis/home).
 
 ## Videos
-* Video presentación cliente.
-* Video presentación avance 1.
+* Video presentación cliente (_Pendiente_)
 
 ## Aspectos técnicos relevantes
 
+_Próximamente._
