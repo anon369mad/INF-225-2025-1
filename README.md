@@ -12,3 +12,15 @@ Puede acceder a la Wiki mediante el siguiente [enlace](https://gitlab.com/anon36
 ## Aspectos técnicos relevantes
 
 _Próximamente._
+
+## Pasos para levantar Proyecto
+
+### 1. Levantar el proyecto.
+Para iniciar el proyecto, utiliza:
+
+```bash
+docker-compose up
+```
+
+### 2. Ingresar a proyecto.
+Una vez que el proyecto esté en ejecución, visita http://127.0.0.1:8000 en tu navegador.
