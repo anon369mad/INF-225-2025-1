@@ -15,7 +15,7 @@ Elegimos como tecnología frontend "Angular", el cuál sirve para crear aplicaci
 
 ## Pasos para levantar Proyecto
 
-#1. Clonar el repositorio
+### 1. Clonar el repositorio
 Primero clone el repositorio en su máquina local:
 
 ```bash
@@ -23,15 +23,15 @@ git clone https://gitlab.com/anon369mad/grupo10-2024-proyinf.git
 cd grupo10-2024-proyinf
 ```
 
-# 2. Docker Desktop
+### 2. Docker Desktop
 Para iniciar el proyecto, haremos uso de la herramienta docker desktop, por lo que tenemos que primero asegurarnos de que la aplicación de escritorio esté corriendo
 
-# 3. Inicializar el proyecto
+### 3. Inicializar el proyecto
 Una vez asegurados de que el docker desktop esté funcionando, nos dirigimos a la terminal y escribimos el siguiente snippet
 
 ```bash
 docker-compose up
 ```
 
-# 4. Verificar el Funcionamiento
+### 4. Verificar el Funcionamiento
 Una vez que el proyecto esté en ejecución, visita http://127.0.0.1:8000 en tu navegador.
