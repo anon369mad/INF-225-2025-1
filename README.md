@@ -24,10 +24,10 @@ cd grupo10-2024-proyinf
 ```
 
 ### 2. Docker Desktop
-Para iniciar el proyecto, haremos uso de la herramienta docker desktop, por lo que tenemos que primero asegurarnos de que la aplicación de escritorio esté corriendo
+Para iniciar el proyecto, haremos uso de la herramienta Docker Desktop, por lo que tenemos que asegurarnos de que la aplicación de escritorio se esté ejecutando.
 
 ### 3. Inicializar el proyecto
-Una vez asegurados de que el docker desktop esté funcionando, nos dirigimos a la terminal y escribimos el siguiente snippet
+Una vez asegurados de que Docker Desktop esté en funcionamiento, abrimos la terminal y escribimos el siguiente snippet:
 
 ```bash
 docker-compose up
