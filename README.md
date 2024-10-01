@@ -11,7 +11,7 @@ Puede acceder a la Wiki mediante el siguiente [enlace](https://gitlab.com/anon36
 
 ## Aspectos técnicos relevantes
 
-Elegimos como tecnología frontend "Angular", el cuál sirve para crear aplicaciónes web de una sola página.
+Elegimos como tecnología frontend "Angular", el cuál sirve para crear aplicaciónes web de una sola página. Además creamos una nueva rama llamada "develop" donde están todos los archivos que se ocupan en el levantamiento del proyecto.
 
 ## Pasos para levantar Proyecto
 
