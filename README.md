@@ -22,16 +22,25 @@ Primero clone el repositorio en su máquina local:
 git clone https://gitlab.com/anon369mad/grupo10-2024-proyinf.git
 cd grupo10-2024-proyinf
 ```
+Una vez hecho esto, cambie la rama a "develop".
 
 ### 2. Docker Desktop
 Para iniciar el proyecto, haremos uso de la herramienta Docker Desktop, por lo que tenemos que asegurarnos de que la aplicación de escritorio se esté ejecutando.
 
-### 3. Inicializar el proyecto
+### 4. Construir y Levantar el Proyecto
 Una vez asegurados de que Docker Desktop esté en funcionamiento, abrimos la terminal y escribimos el siguiente snippet:
+
+```bash
+docker-compose up --build
+```
+Después, cerramos la terminal.
+
+### 5. Inicializar el proyecto
+Para iniciar el proyecto, se utiliza:
 
 ```bash
 docker-compose up
 ```
 
-### 4. Verificar el Funcionamiento
-Una vez que el proyecto esté en ejecución, visita http://127.0.0.1:8000 en tu navegador.
+### 6. Verificar el Funcionamiento
+Una vez que el proyecto esté en ejecución, visita http://127.0.0.1:8000/docs en tu navegador.
