@@ -47,3 +47,28 @@ docker-compose up
 
 ### 6. Verificar el Funcionamiento
 Una vez que el proyecto esté en ejecución, visita http://127.0.0.1:8000/docs en tu navegador.
+
+## Pasos para Angular
+Para visualizar nuestro proyecto de Angular sin dockerizar (todavía), se siguen los siguientes pasos:
+
+### 1. Navegar al directorio del proyecto
+Dentro de la carpeta "grupo10-2024-proyinf", navega al directorio del proyecto de Angular usando el siguiente comando:
+```bash
+cd grupo10-2024-proyinf
+cd proyecto
+```
+
+### 2. Instalar Tailwind CSS y dependencias necesarias
+Instala Tailwind CSS junto con PostCSS y Autoprefixer como dependencias de desarrollo:
+
+```bash
+npm install -D tailwindcss postcss autoprefixer
+```
+
+### 3. Iniciar el servidor de desarrollo
+Inicia el servidor de desarrollo de Angular para ver el proyecto en el navegador:
+
+```bash
+ng serve
+```
+Este finalmente podrá verse en http://localhost:4200 .
