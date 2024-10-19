@@ -9,6 +9,9 @@ Este es el repositorio del Grupo 10 cuyos integrantes son:
 ## Wiki
 Puede acceder a la Wiki mediante el siguiente [enlace](https://gitlab.com/anon369mad/grupo10-2024-proyinf/-/wikis/home).
 
+## Video Prototipo
+En el siguiente enlace se puede visualizar el video de presentación del prototipo [enlace](https://www.youtube.com/watch?v=YPCQg1orsf8) (hasta esta entrega el prototipo es no funcional).
+
 ## Aspectos técnicos relevantes
 
 Elegimos como tecnología frontend "Angular", el cuál sirve para crear aplicaciónes web de una sola página. Además creamos una nueva rama llamada "develop" donde están todos los archivos que se ocupan en el levantamiento del proyecto.
