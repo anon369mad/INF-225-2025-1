@@ -25,7 +25,11 @@ Primero clone el repositorio en su máquina local:
 git clone https://gitlab.com/anon369mad/grupo10-2024-proyinf.git
 cd grupo10-2024-proyinf
 ```
-Una vez hecho esto, cambie la rama a "develop".
+Una vez hecho esto, cambie la rama a "develop" e ingrese a la carpeta del proyecto base.
+
+```bash
+cd proyectobase
+```
 
 ### 2. Docker Desktop
 Para iniciar el proyecto, haremos uso de la herramienta Docker Desktop, por lo que tenemos que asegurarnos de que la aplicación de escritorio se esté ejecutando.
