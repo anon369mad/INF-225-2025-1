@@ -30,6 +30,10 @@ Una vez hecho esto, cambie la rama a "develop" e ingrese a la carpeta del proyec
 ```bash
 cd proyectobase
 ```
+Se instalan las dependencias de Angular.
+```bash
+npm install @angular/cli
+```
 
 ### 2. Docker Desktop
 Para iniciar el proyecto, haremos uso de la herramienta Docker Desktop, por lo que tenemos que asegurarnos de que la aplicación de escritorio se esté ejecutando.
