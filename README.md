@@ -9,12 +9,9 @@ Este es el repositorio del Grupo 10 cuyos integrantes son:
 ## Wiki
 Puede acceder a la Wiki mediante el siguiente [enlace](https://gitlab.com/anon369mad/grupo10-2024-proyinf/-/wikis/home).
 
-## Video Prototipo
-En el siguiente enlace se puede visualizar el video de presentación del prototipo [enlace](https://www.youtube.com/watch?v=YPCQg1orsf8) (hasta esta entrega el prototipo es no funcional).
-
 ## Aspectos técnicos relevantes
 
-Elegimos como tecnología frontend "Angular", el cuál sirve para crear aplicaciónes web de una sola página. Además creamos una nueva rama llamada "develop" donde están todos los archivos que se ocupan en el levantamiento del proyecto.
+Elegimos como tecnología frontend "Angular", el cuál sirve para crear aplicaciónes web de una sola página.
 
 ## Pasos para levantar Proyecto
 
@@ -25,58 +22,78 @@ Primero clone el repositorio en su máquina local:
 git clone https://gitlab.com/anon369mad/grupo10-2024-proyinf.git
 cd grupo10-2024-proyinf
 ```
-Una vez hecho esto, cambie la rama a "develop" e ingrese a la carpeta del proyecto base.
+Una vez hecho esto, cambie la rama a "develop" e ingrese a la carpeta de la aplicación Angular.
 
 ```bash
-cd proyectobase
+cd proyecto
 ```
+
 Se instalan las dependencias de Angular.
+
 ```bash
 npm install @angular/cli
 ```
 
-### 2. Docker Desktop
-Para iniciar el proyecto, haremos uso de la herramienta Docker Desktop, por lo que tenemos que asegurarnos de que la aplicación de escritorio se esté ejecutando.
+Luego se vuelve a la carpeta de nuestro proyecto.
 
-### 4. Construir y Levantar el Proyecto
+```bash
+cd ..
+```
+
+### 2. Docker Desktop y levantamiento del proyecto
+Para iniciar el proyecto, haremos uso de la herramienta Docker Desktop, por lo que tenemos que asegurarnos de que la aplicación de escritorio se esté ejecutando utilizando ``docker version`` en la terminal. Se mostrará algo similar a lo siguiente:
+
+```bash
+Server: Docker Desktop 4.34.3 (170107)
+ Engine:
+  Version:          27.2.0
+  API version:      1.47 (minimum version 1.24)
+  Go version:       go1.21.13
+  Git commit:       3ab5c7d
+  Built:            Tue Aug 27 14:15:15 2024
+  OS/Arch:          linux/amd64
+  Experimental:     false
+ containerd:
+  Version:          1.7.20
+  GitCommit:        8fc6bcff51318944179630522a095cc9dbf9f353
+ runc:
+  Version:          1.1.13
+  GitCommit:        v1.1.13-0-g58aa920
+ docker-init:
+  Version:          0.19.0
+  GitCommit:        de40ad0
+```
+
+Caso 1: Primera vez levantando el proyecto
 Una vez asegurados de que Docker Desktop esté en funcionamiento, abrimos la terminal y escribimos el siguiente snippet:
 
 ```bash
 docker-compose up --build
 ```
-Después, cerramos la terminal.
+Para iniciar el proyecto, se utiliza:
 
-### 5. Inicializar el proyecto
+```bash
+docker-compose up
+```
+Caso 2: El proyecto ya fue levantado previamente
+Ocupar el siguiente comando (luego escribir "y" en la terminal):
+
+```bash
+docker system prune -a
+```
+Reiniciamos Docker y verificamos que no tenga ningún contenedor, imagen, volumen o build (se eliminan si todavía están). 
+Luego, escribimos en la terminal el siguiente comando:
+
+```bash
+docker-compose up --build
+```
 Para iniciar el proyecto, se utiliza:
 
 ```bash
 docker-compose up
 ```
 
-### 6. Verificar el Funcionamiento
-Una vez que el proyecto esté en ejecución, visita http://127.0.0.1:8000/docs en tu navegador.
+### 3. Verificar el Funcionamiento
+Una vez que el proyecto esté en ejecución, visita http://127.0.0.1:8000 para verificar el funcionamiento en tu navegador.
+Para visitar la página de inicio de nuestro proyecto, visita http://127.0.0.1:80. Para ver las demás vistas (sin tener que iniciar sesión), agrege "/trabajador" para la vista del Trabajador, "/contador" para la vista del contador, y "/jefe-area" para la vista del Jefe de Área.
 
-## Pasos para Angular
-Para visualizar nuestro proyecto de Angular sin dockerizar (todavía), se siguen los siguientes pasos:
-
-### 1. Navegar al directorio del proyecto
-Dentro de la carpeta "grupo10-2024-proyinf", navega al directorio del proyecto de Angular usando el siguiente comando:
-```bash
-cd grupo10-2024-proyinf
-cd proyecto
-```
-
-### 2. Instalar Tailwind CSS y dependencias necesarias
-Instala Tailwind CSS junto con PostCSS y Autoprefixer como dependencias de desarrollo:
-
-```bash
-npm install -D tailwindcss postcss autoprefixer
-```
-
-### 3. Iniciar el servidor de desarrollo
-Inicia el servidor de desarrollo de Angular para ver el proyecto en el navegador:
-
-```bash
-ng serve
-```
-Este finalmente podrá verse en http://localhost:4200 .
