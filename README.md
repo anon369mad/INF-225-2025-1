@@ -64,7 +64,7 @@ Server: Docker Desktop 4.34.3 (170107)
   GitCommit:        de40ad0
 ```
 
-Caso 1: Primera vez levantando el proyecto
+### Caso 1: Primera vez levantando el proyecto
 Una vez asegurados de que Docker Desktop esté en funcionamiento, abrimos la terminal y escribimos el siguiente snippet:
 
 ```bash
@@ -75,7 +75,7 @@ Para iniciar el proyecto, se utiliza:
 ```bash
 docker-compose up
 ```
-Caso 2: El proyecto ya fue levantado previamente
+### Caso 2: El proyecto ya fue levantado previamente
 Ocupar el siguiente comando (luego escribir "y" en la terminal):
 
 ```bash
