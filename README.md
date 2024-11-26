@@ -14,7 +14,9 @@ Enlace a video presentación proyecto final: https://youtu.be/0NWqnwg0dTI
 
 ## Aspectos técnicos relevantes
 
-Elegimos como tecnología frontend "Angular", el cuál sirve para crear aplicaciónes web de una sola página.
+En este proyecto, se utiliza Angular como tecnología frontend, una herramienta especializada en el desarrollo de aplicaciones web de una sola página.
+
+Para el almacenamiento y gestión de archivos relacionados con las rendiciones, se emplea Cloudinary, una plataforma en la nube que facilita la manipulación, optimización y distribución eficiente de medios. Este último permite subir y organizar imágenes, videos y otros archivos multimedia.  (En el caso de fallar el sistema de rendiciones al subir o visualizar documentos, comunicarse con los integrantes del Grupo 10 para dar permisos de "Administrador" al ambiente de trabajo de Cloudinary.)
 
 ## Pasos para levantar Proyecto
 
@@ -35,6 +37,7 @@ Se instalan las dependencias de Angular.
 
 ```bash
 npm install @angular/cli
+npm install ngx-extended-pdf-viewer
 ```
 
 Luego se vuelve a la carpeta de nuestro proyecto.
@@ -98,5 +101,5 @@ docker-compose up
 
 ### 3. Verificar el Funcionamiento
 Una vez que el proyecto esté en ejecución, visita http://127.0.0.1:8000 para verificar el funcionamiento en tu navegador.
-Para visitar la página de inicio de nuestro proyecto, visita http://127.0.0.1:80. Para ingresar a las vistas seleccionar el rol que se desea en pantalla y este llevará a lo correspondiente.
 
+Para acceder a la página de inicio de nuestro proyecto, dirígete a http://127.0.0.1:80. Desde allí, selecciona el rol deseado en pantalla, y serás redirigido automáticamente a la vista correspondiente.
