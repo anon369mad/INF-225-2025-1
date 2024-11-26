@@ -16,7 +16,7 @@ Enlace a video presentación proyecto final: https://youtu.be/0NWqnwg0dTI
 
 En este proyecto, se utiliza Angular como tecnología frontend, una herramienta especializada en el desarrollo de aplicaciones web de una sola página.
 
-Para el almacenamiento y gestión de archivos relacionados con las rendiciones, se emplea Cloudinary, una plataforma en la nube que facilita la manipulación, optimización y distribución eficiente de medios. Este último permite subir y organizar imágenes, videos y otros archivos multimedia.  (En el caso de fallar el sistema de rendiciones al subir o visualizar documentos, comunicarse con los integrantes del Grupo 10 (Valentina o Daniela) para dar permisos de "Administrador" al ambiente de trabajo de Cloudinary.)
+Para el almacenamiento y gestión de archivos relacionados con las rendiciones, se emplea Cloudinary, una plataforma en la nube que facilita la manipulación, optimización y distribución eficiente de medios. Este último permite subir y organizar imágenes, videos y otros archivos multimedia.  (En el caso de fallar el sistema de rendiciones al subir o visualizar documentos, comunicarse con los integrantes del Grupo 10 para dar permisos de "Administrador" al ambiente de trabajo de Cloudinary.)
 
 ## Pasos para levantar Proyecto
 
