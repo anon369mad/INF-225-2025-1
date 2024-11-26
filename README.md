@@ -95,5 +95,5 @@ docker-compose up
 
 ### 3. Verificar el Funcionamiento
 Una vez que el proyecto esté en ejecución, visita http://127.0.0.1:8000 para verificar el funcionamiento en tu navegador.
-Para visitar la página de inicio de nuestro proyecto, visita http://127.0.0.1:80. Para ingresar a las vistas seleccionar el rol que se desea en pantalla y este llevará a lo correspondiente(no hay funcionamiento del login como tal).
+Para visitar la página de inicio de nuestro proyecto, visita http://127.0.0.1:80. Para ingresar a las vistas seleccionar el rol que se desea en pantalla y este llevará a lo correspondiente.
 
