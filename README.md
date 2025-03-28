@@ -6,6 +6,8 @@ Este es el repositorio del Grupo J (previo Grupo 10 en INF236) cuyos integrantes
 * Benjamín Mac-kay - 202204098-k
 * **Tutor:** Cristóbal Moraga
 
+Todo lo relacionado al nuevo proyecto de Ingeniería de Software se irá subiendo a la rama inf225.
+
 ## Wiki
 Puede acceder a la Wiki mediante el siguiente [enlace](https://gitlab.com/anon369mad/grupo10-2024-proyinf/-/wikis/home).
 
