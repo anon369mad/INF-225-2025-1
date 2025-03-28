@@ -1,16 +1,19 @@
-# Grupo 10
-Este es el repositorio del Grupo 10 cuyos integrantes son:
+# Grupo J
+Este es el repositorio del Grupo J (previo Grupo 10 en INF236) cuyos integrantes son:
 * Luis González - 202021002-0
 * Valentina Ibacache- 202173136-9
 * Daniela Aguilar - 202111060-7
 * Benjamín Mac-kay - 202204098-k
-* **Tutor:** Ariane Carvajal
+* **Tutor:** Cristóbal Moraga
 
 ## Wiki
 Puede acceder a la Wiki mediante el siguiente [enlace](https://gitlab.com/anon369mad/grupo10-2024-proyinf/-/wikis/home).
 
 ## Video
 Enlace a video presentación proyecto final: https://youtu.be/0NWqnwg0dTI 
+
+## Autoevaluación de Proyecto (SEMAT)
+Se puede acceder a la Autoevaluación de Proyecto a través del siguiente [enlace](https://gitlab.com/anon369mad/grupo10-2024-proyinf/-/wikis/Autoevaluacion-proyecto).
 
 ## Aspectos técnicos relevantes
 
