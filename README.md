@@ -4,7 +4,7 @@ Este es el repositorio del Grupo J (previo Grupo 10 en INF236) cuyos integrantes
 * Valentina Ibacache- 202173136-9
 * Daniela Aguilar - 202111060-7
 * Benjamín Mac-kay - 202204098-k
-* **Tutor:** Cristóbal Moraga
+* **Tutor:** Catalina Cortez
 
 Todo lo relacionado al nuevo proyecto de Ingeniería de Software se irá subiendo a la rama inf225.
 
